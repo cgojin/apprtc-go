@@ -13,27 +13,27 @@ go build apprtc.go
 
 # 查看参数
 ./apprtc --help
-Usage of ./apprtc:
-  -cert string
-        cert pem file  (default "./mycert.pem")
-  -httpport int
-        The http port that the server listens on (default 8080)
-  -httpsport int
-        The https port that the server listens on (default 8888)
-  -key string
-        cert key file  (default "./mycert.key")
-  -room-server string
-        The origin of the room server (default "https://appr.tc")
-  -stun string
-        Enter stun server ip:port,for example 192.168.2.170:3478,default is null
-  -turn string
-        Enter turn server ip:port,for example 192.168.2.170:3478,default is null
-  -turn-password string
-        Enter turn server user password,default is null
-  -turn-static-auth-secret string
-        Enter turn server static auth secret,default is null
-  -turn-username string
-        Enter turn server username,default is null
+  Usage of ./apprtc:
+    -cert string
+          cert pem file  (default "./mycert.pem")
+    -httpport int
+          The http port that the server listens on (default 8080)
+    -httpsport int
+          The https port that the server listens on (default 8888)
+    -key string
+          cert key file  (default "./mycert.key")
+    -room-server string
+          The origin of the room server (default "https://appr.tc")
+    -stun string
+          Enter stun server ip:port,for example 192.168.2.170:3478,default is null
+    -turn string
+          Enter turn server ip:port,for example 192.168.2.170:3478,default is null
+    -turn-password string
+          Enter turn server user password,default is null
+    -turn-static-auth-secret string
+          Enter turn server static auth secret,default is null
+    -turn-username string
+          Enter turn server username,default is null
 ```
 
 ## apprtc-to 与 cotrun 一起使用
